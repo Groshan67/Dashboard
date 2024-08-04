@@ -1,19 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.pexels.com",
-      },
-    ],
-  },
   async redirects() {
     return [
       {
         source: "/",
-        destination: "/dashboard",
-        
+        destination: "/dashboard", // The new page you want to redirect to
+        permanent: true, // This will be a 308 permanent redirect
       },
     ];
   },
