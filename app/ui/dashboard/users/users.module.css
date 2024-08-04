@@ -1,0 +1,76 @@
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bgSoft);
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e374a;
+    padding: 10px;
+    border-radius: 10px;
+
+} */
+/* 
+.input {
+    background-color: transparent;
+    border:none;
+    color:var(--text)
+} */
+
+.addButton {
+  padding: 10px;
+  background-color: #5d57c9;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table {
+    width: 100%;
+}
+
+
+.user {
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.userImage {
+    object-fit: cover;
+    border-radius: 50px;
+  /* filter: grayscale(100%); */
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+}
+
+.view {
+    background-color: teal;
+
+}
+
+.delete {
+    background-color: crimson;
+}

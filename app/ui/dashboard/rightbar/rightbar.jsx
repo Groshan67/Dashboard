@@ -7,7 +7,7 @@ const rightbar = () => {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.bgContainer}>
-          <Image src="/astronaut.png" alt="" fill />
+          <Image src="/astronaut.png" alt="" fill className={styles.bg} />
         </div>
         <div className={styles.text}>
           <span className={styles.notification}>🔥 Available Now</span>
@@ -20,16 +20,13 @@ const rightbar = () => {
             Reprehenderit eius libero perspiciatis recusandae possimus.
           </p>
           <button className={styles.button}>
-            <MdPlayCircleFilled  />
+            <MdPlayCircleFilled />
             Watch
           </button>
         </div>
       </div>
 
       <div className={styles.item}>
-        <div className={styles.bgContainer}>
-          <Image src="/astronaut.png" alt="" fill />
-        </div>
         <div className={styles.text}>
           <span className={styles.notification}>🚀 Coming Soon</span>
           <h3 className={styles.title}>
@@ -47,6 +44,7 @@ const rightbar = () => {
           </button>
         </div>
       </div>
+      
     </div>
   );
 };
